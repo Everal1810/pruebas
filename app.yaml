@@ -1,0 +1,36 @@
+runtime: php55
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /a
+  script: helloworld.php
+- url: /CertificacionInscrita.php
+  script: CertificacionInscrita.php
+- url: /CertificacionNIvel.php
+  script: CertificacionNIvel.php
+- url: /CRUDUsuarios.php
+  script: CRUDUsuarios.php
+- url: /DetalleCertificacion.php
+  script: DetalleCertificacion.php
+- url: /HorariosInscritosCert.php
+  script: HorariosInscritosCert.php
+- url: /InfoUsuario.php
+  script: InfoUsuario.php
+- url: /InscripcionHorario.php
+  script: InscripcionHorario.php  
+- url: /ListaCertificacion.php
+  script: ListaCertificacion.php  
+- url: /ListaTipoRegistro.php
+  script: ListaTipoRegistro.php  
+- url: /ListaTipoCertificacion.php
+  script: ListaTipoCertificacion.php  
+- url: /ListaNivelCertificacion.php
+  script: ListaNivelCertificacion.php  
+- url: /ListaLaboratorios.php
+  script: ListaLaboratorios.php  
+- url: /ListaFacilitadores.php
+  script: ListaFacilitadores.php  
+  
+  
+  
